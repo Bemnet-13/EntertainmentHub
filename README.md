@@ -5,6 +5,7 @@ To run the application, follow these steps.
 1. Run movie_recommender.ipynb and book_recommendation_system.ipynb to generate the required pkl files
 2. Replace the API token for movie recommender with your own TMDB account API token to access movie poster. This step is manadatory for running the application. Otherwise, the HTTP request will fail to go through.
 3. Run the application by using the command streamlit run app.py
-The datasets used are found here
-https://www.kaggle.com/datasets/zygmunt/goodbooks-10k
-https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+
+### The datasets used are found here
+1. https://www.kaggle.com/datasets/zygmunt/goodbooks-10k
+2. https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
