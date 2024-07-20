@@ -13,6 +13,8 @@ with open( "styles.css" ) as css:
 
 def fetch_movie_poster(movie_id):
     url = "https://api.themoviedb.org/3/movie/{}?api_key=3a656da52cc4139a9e90f39aa1b6cf0b&language=en-US".format(movie_id)
+    # Enter your own API key from https://www.themoviedb.org/ and replace your own in the above url
+    # If not you may encounter an HTTP exception
     data = requests.get(url)
     data = data.json()
     poster_path = data['poster_path']
